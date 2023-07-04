@@ -151,7 +151,7 @@ mines = None
 flags = 0
 
 root = tk.Tk()
-root.title('Saper')
+root.title('Minesweeper')
 if getattr(sys, 'frozen', False):
     root.iconbitmap(os.path.join(sys._MEIPASS, "elephant.ico"))
 else:
